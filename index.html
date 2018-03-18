@@ -4,15 +4,9 @@
   <meta charset="utf-8" lang="zh-Hant-TW">
   <title>名片</title>
   <link rel=stylesheet type="text/css" href="style.css">
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script>
-    $(document).ready(function() {
-    $('.hover').bind('touchstart touchend', function(e) {
-        e.preventDefault();
-        $(this).toggleClass('hover_effect');
-        });
-    });
-  </script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 </head>
 
 <body>
@@ -72,7 +66,15 @@
         <li><a href="" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
     </ul>
   </div>
-
+  <script>
+    $( document ).ready(function() {
+      $(".namecard").on("touchstart",function(){
+        $(".namecard").toggleClass(function(){
+          return 'showDiv'
+        })
+      })
+    })
+  </script>
 </body>
 
 </html>

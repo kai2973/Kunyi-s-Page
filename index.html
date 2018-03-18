@@ -4,6 +4,14 @@
   <meta charset="utf-8" lang="zh-Hant-TW">
   <title>名片</title>
   <link rel=stylesheet type="text/css" href="style.css">
+  <script>
+    $(document).ready(function() {
+    $('.hover').bind('touchstart touchend', function(e) {
+        e.preventDefault();
+        $(this).toggleClass('hover_effect');
+        });
+    });
+  </script>
 </head>
 
 <body>

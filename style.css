@@ -148,11 +148,6 @@ ul.social-icons {
         width: 800px; height: 500px;
       }
 
-      .hover {
-        -webkit-user-select: none;
-        -webkit-touch-callout: none;        
-        }
-
     .namecard h2{
       font-size: 25px;
       font-weight:500;

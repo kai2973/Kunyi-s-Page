@@ -70,6 +70,7 @@ body  {
 				line-height: 0px;
 				font-family: 'Arsenal', sans-serif;
 				font-size: 40px;
+				color: #404040;
 			}
 
 			#socialmediaicon{
@@ -86,16 +87,18 @@ body  {
 			.maintitle{
 				line-height: 0px; padding-left: 20px;
 				font-size: 28px;
+				color: #404040;
 			}
 			.subtitle{
-				padding-left: 20px; line-height: 0px; font-size: 20px
+				padding-left: 20px; line-height: 0px; font-size: 20px; color: #404040;
 			}
 				.subtitlecontent{
-					padding-left: 44px;line-height: 18px; font-size: 16px;
+					padding-left: 44px;line-height: 18px; font-size: 16px; color: #404040;
 				}
 					#contentdescription{
 						font-family: 'Heebo', sans-serif;
 						font-size: 12px;
+						color: #404040;
 						line-height: 16px;
 					}
 

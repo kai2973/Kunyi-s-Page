@@ -139,6 +139,11 @@ body  {
 		font-size: 52px;
 		line-height: 50px;
 	}
+
+	.citeword{
+		display: none;
+	}
+
 	.box2{
 		 width: 100%; padding: 0px;
 	}
@@ -191,6 +196,11 @@ body  {
 		font-size: 52px;
 		line-height: 50px;
 	}
+
+	.citeword{
+		display: none;
+	}
+	
 	.box2{
 		 width: 100%; padding: 0px;
 	}

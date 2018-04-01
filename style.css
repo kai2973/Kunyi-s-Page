@@ -46,7 +46,9 @@ body  {
 			margin-left: 112px;
 			padding: 24px;
 			width: 400px; height: 640px;
-			background:rgba(166,166,166,0.8);
+			border-radius: 2px;
+			background:rgba(204, 204, 204,0.8);
+			box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 			color: white;
 			overflow-x:hidden;
 			overflow-y:auto;

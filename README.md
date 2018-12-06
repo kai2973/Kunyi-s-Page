@@ -1,4 +1,9 @@
-## Welcome to GitHub Pages
+## Welcome to My Website on GitHub Pages
+
+Hello guys! This is Kai👨🏻‍💻, a front end developer from Taiwan🇹🇼.
+I am self-learning programmer. I simplely builded my personal website that included my CV, photos from Instagram and some articles.
+
+Hope everyone enjoy on programming and keep learning! Tkx.
 
 You can use the [editor on GitHub](https://github.com/kai2973/personalwebsite/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
